@@ -44,7 +44,7 @@ class Twitter:
 		# 'indian journalism',
 		]
 
-class TwitterBot:
+class ResetTimeLine:
 
 	def __init__(self):
 		self.t = Twitter()
