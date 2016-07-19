@@ -7,15 +7,12 @@ class Twitter:
 	def __init__(self):
 		'''
 		Enter your twitter app credentials here.
-		consumer_key = 'Rqw03S7GstNhbgw30bxfBwE8U'
-		consumer_secret = 'wEk3y7zZBIUzRf44R30ucwHLBoO3DLM1gXZoRMhmtM8M4qe474'
-		access_token = '568978779-2lU9wHZBHlD5gpEulUIufeBbJD2mjmKRu1Gwr4hZ'
-		access_token_secret = 'B5jTG4wOP8MrvTRxyLVOqSVgq5kg47BVQbqVaAfqL4K6n'
+		
 		'''
-		self.consumer_key = 'Rqw03S7GstNhbgw30bxfBwE8U'
-		self.consumer_secret = 'wEk3y7zZBIUzRf44R30ucwHLBoO3DLM1gXZoRMhmtM8M4qe474'
-		self.access_token = '568978779-2lU9wHZBHlD5gpEulUIufeBbJD2mjmKRu1Gwr4hZ'
-		self.access_token_secret = 'B5jTG4wOP8MrvTRxyLVOqSVgq5kg47BVQbqVaAfqL4K6n'
+		self.consumer_key = ''
+		self.consumer_secret = ''
+		self.access_token = ''
+		self.access_token_secret = ''
 		self.keyword_list()
 
 	def api(self):
